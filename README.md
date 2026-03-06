@@ -1,29 +1,69 @@
-# General Assignments Repository
+# Comprehensive Documentation for General Assignments Repository
 
-This repository contains various assignments including projects and exercises focused on functional programming techniques.
+This README provides detailed documentation of all projects and exercises in this repository.
 
-## FocusFlow
-FocusFlow is an organizational tool that helps users structure their workflows and manage their focus throughout tasks more effectively. It allows users to prioritize tasks based on urgency and importance, and it provides visualizations to aid in understanding task progress and bottlenecks.
+## Projects and Exercises Overview
 
-### Key Features:
-- **Task Management**: Organize tasks into categories and set deadlines.
-- **Prioritization**: Rank tasks by importance.
-- **Visual Flow**: User-friendly interface to track ongoing tasks and visualize work progress.
+### FocusFlow
+- **Description**: FocusFlow is a productivity application designed to help users manage their tasks and improve their focus.
+- **File Location**: `FocusFlow/`
+- **Technologies Used**: Dart
+- **How to Explore**: To explore the FocusFlow project, navigate to the `FocusFlow` directory. You can run the app using Dart SDK.
 
-## GradeCalculator
-The GradeCalculator project is designed to help students calculate their overall grades based on various assessments. It provides a user-friendly interface that allows for input of grades, weighting of assignments, and calculation of final scores.
+### GradeCalculator
+- **Description**: GradeCalculator is a tool for calculating grades based on user inputs and predefined criteria.
+- **File Location**: `GradeCalculator/`
+- **Technologies Used**: Kotlin
+- **How to Explore**: You can explore GradeCalculator by going to the `GradeCalculator` folder. The app can be compiled and run using Kotlin.
 
-### Key Features:
-- **Grade Input**: Input scores for each assignment.
-- **Weighting**: Assign different weights to assignments based on importance.
-- **Final Grade Calculation**: Automatically calculates the overall grade after inputting scores.
+### Functional Programming Exercises
+#### Exercise 1: Dart Implementation
+- **Description**: This exercise covers the basics of functional programming in Dart.
+- **File Location**: `FunctionalProgramming/Dart/Exercise1.dart`
+- **Technologies Used**: Dart
+- **How to Explore**: Open the file in a Dart-capable IDE to view and run the code.
 
-## Functional Programming Exercises
-This section includes a variety of exercises aimed at reinforcing functional programming concepts. Exercises range from simple problems to more complex algorithm implementations, ensuring a solid understanding of functional paradigms.
+#### Exercise 1: Kotlin Implementation
+- **Description**: This exercise covers the basics of functional programming in Kotlin.
+- **File Location**: `FunctionalProgramming/Kotlin/Exercise1.kt`
+- **Technologies Used**: Kotlin
+- **How to Explore**: Open the file in a Kotlin-capable IDE to view and run the code.
 
-### Exercises Include:
-- **Map, Filter, Reduce**: Implementing and practicing these essential higher-order functions.
-- **Recursive Functions**: Understanding recursion through practical coding challenges.
-- **Immutable Data Structures**: Working with data types that do not change state or value after creation.
+#### Exercise 2: Dart Implementation
+- **Description**: This exercise builds on the concepts learned in Exercise 1, focusing on functional paradigms in Dart.
+- **File Location**: `FunctionalProgramming/Dart/Exercise2.dart`
+- **Technologies Used**: Dart
+- **How to Explore**: Open the file in a Dart-capable IDE to view and run the code.
 
-Each of these projects and exercises is intended to strengthen programming skills with a focus on functional programming principles. Feel free to contribute or suggest improvements!
+#### Exercise 2: Kotlin Implementation
+- **Description**: This exercise builds on the concepts learned in Exercise 1, focusing on functional paradigms in Kotlin.
+- **File Location**: `FunctionalProgramming/Kotlin/Exercise2.kt`
+- **Technologies Used**: Kotlin
+- **How to Explore**: Open the file in a Kotlin-capable IDE to view and run the code.
+
+#### Exercise 3: Dart Implementation
+- **Description**: This exercise focuses on advanced functional programming concepts in Dart.
+- **File Location**: `FunctionalProgramming/Dart/Exercise3.dart`
+- **Technologies Used**: Dart
+- **How to Explore**: Open the file in a Dart-capable IDE to view and run the code.
+
+#### Exercise 3: Kotlin Implementation
+- **Description**: This exercise focuses on advanced functional programming concepts in Kotlin.
+- **File Location**: `FunctionalProgramming/Kotlin/Exercise3.kt`
+- **Technologies Used**: Kotlin
+- **How to Explore**: Open the file in a Kotlin-capable IDE to view and run the code.
+
+#### Exercise 4: Dart Implementation
+- **Description**: This exercise delves into practical applications of functional programming in Dart.
+- **File Location**: `FunctionalProgramming/Dart/Exercise4.dart`
+- **Technologies Used**: Dart
+- **How to Explore**: Open the file in a Dart-capable IDE to view and run the code.
+
+#### Exercise 4: Kotlin Implementation
+- **Description**: This exercise delves into practical applications of functional programming in Kotlin.
+- **File Location**: `FunctionalProgramming/Kotlin/Exercise4.kt`
+- **Technologies Used**: Kotlin
+- **How to Explore**: Open the file in a Kotlin-capable IDE to view and run the code.
+
+## Conclusion
+This repository is designed for learning purposes and showcases various projects and exercises in Dart and Kotlin. Feel free to explore!
