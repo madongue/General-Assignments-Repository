@@ -1,0 +1,47 @@
+# General-Assignments-Repository
+
+A comprehensive collection of Kotlin and Android development projects, ranging from fundamental logic exercises to full-scale productivity applications.
+
+## Featured Applications
+
+### 🚀 FocusFlow
+A digital wellbeing and productivity application tailored for students. FocusFlow enhances students' digital wellbeing and productivity during study sessions. It uses the ambient light sensor to monitor lighting, the front camera to detect posture and screen distance, the microphone to assess noise levels and suggest focus sounds, and the accelerometer to encourage healthy breaks after long inactivity.
+- **Path:** `/FocusFlow`
+- **Tech:** Kotlin, Jetpack Compose, MVVM Architecture, Google ML Kit, Room Persistence.
+
+### 📊 GradeCalculator
+GradeCalculator is an academic app that calculates student averages and automatically assigns grades using a defined grading scale. It allows manual entry and Excel file import, extracting student data to generate fast and accurate results. The app saves time, reduces errors, and simplifies academic performance management for schools.
+- **Path:** `/GradeCalculator`
+- **Features:** Manual entry and Excel file import, automated grade calculation, PDF & Excel export, statistics dashboard, local data storage, and multi-language support.
+- **Kotlin Layers:** Data, Model, ViewModel, and Utils.
+
+---
+
+## Technical Exercises
+
+### 1. Higher-Order Function (Exercise 1)
+- **Task:** Custom implementation of `processList` with predicate lambdas.
+- **Location:** `exercise 1 Higher Order Function/`
+
+### 2. Transforming Collections (Exercise 2)
+- **Task:** List-to-Map transformations using `associateWith` and filtering.
+- **Location:** `exercise 2 Transforming Between Collection Types/`
+
+### 3. Complex Data Processing (Exercise 3)
+- **Task:** Chained object processing (Filter -> Map -> Average).
+- **Location:** `exercise 3 Complex Data Processing/`
+
+### 4. Lambda Logic
+- **Task:** Basic filtering and squaring of numeric sequences.
+- **Location:** `filtering and transforming with lambdas/`
+
+---
+
+## Getting Started
+Each project folder contains its own Gradle wrapper. You can open specific projects (like FocusFlow) directly in Android Studio or run the master `app` module to see the integrated exercises.
+
+## Technologies Used
+- **Kotlin & Dart:** Core programming languages.
+- **Jetpack Compose:** Declarative UI for Android.
+- **MVVM Architecture:** Clean code standards in GradeCalculator and FocusFlow.
+- **Material Design 3:** Modern UI/UX components.

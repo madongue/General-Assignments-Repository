@@ -1,0 +1,2 @@
+include ':GradeCalculator_Kotlin:app'
+project(':GradeCalculator_Kotlin:app').projectDir = new File('GradeCalculator_Kotlin/app')
