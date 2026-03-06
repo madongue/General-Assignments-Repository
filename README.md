@@ -1,40 +1,29 @@
-# General-Assignments-Repository
+# General Assignments Repository
 
-This repository contains a collection of programming exercises and mini-projects developed to master functional programming concepts in both **Kotlin (Android)** and **Dart (Flutter)**.
+This repository contains various assignments including projects and exercises focused on functional programming techniques.
 
-## Project Structure
+## FocusFlow
+FocusFlow is an organizational tool that helps users structure their workflows and manage their focus throughout tasks more effectively. It allows users to prioritize tasks based on urgency and importance, and it provides visualizations to aid in understanding task progress and bottlenecks.
 
-This repository is organized into several modules, each focusing on a specific concept:
+### Key Features:
+- **Task Management**: Organize tasks into categories and set deadlines.
+- **Prioritization**: Rank tasks by importance.
+- **Visual Flow**: User-friendly interface to track ongoing tasks and visualize work progress.
 
-### 1. [Exercise 1: Higher-Order Function](./exercise%201%20Higher%20Order%20Function/)
-- **Concept**: Creating custom higher-order functions that take predicates as parameters.
-- **Kotlin Implementation**: A custom `processList` function using lambdas.
-- **Flutter (Dart) Implementation**: A corresponding `processList` using function parameters.
+## GradeCalculator
+The GradeCalculator project is designed to help students calculate their overall grades based on various assessments. It provides a user-friendly interface that allows for input of grades, weighting of assignments, and calculation of final scores.
 
-### 2. [Exercise 2: Transforming Between Collection Types](./exercise%202%20Transforming%20Between%20Collection%20Types/)
-- **Concept**: Data transformation from `List` to `Map` and filtering entries.
-- **Kotlin Implementation**: Using `associateWith` and `filter`.
-- **Flutter (Dart) Implementation**: Using map comprehensions and `entries.where`.
+### Key Features:
+- **Grade Input**: Input scores for each assignment.
+- **Weighting**: Assign different weights to assignments based on importance.
+- **Final Grade Calculation**: Automatically calculates the overall grade after inputting scores.
 
-### 3. [Exercise 3: Complex Data Processing](./exercise%203%20Complex%20Data%20Processing/)
-- **Concept**: Chaining multiple collection transformations on custom data objects.
-- **Kotlin Implementation**: Chaining `filter`, `map`, and `average` on `Person` objects.
-- **Flutter (Dart) Implementation**: Using `where`, `map`, and `fold` to process `Person` instances.
+## Functional Programming Exercises
+This section includes a variety of exercises aimed at reinforcing functional programming concepts. Exercises range from simple problems to more complex algorithm implementations, ensuring a solid understanding of functional paradigms.
 
-### 4. [Filtering and Transforming with Lambdas](./filtering%20and%20transforming%20with%20lambdas/)
-- **Concept**: Basic functional operations like filtering and mapping.
-- **Kotlin Implementation**: Concise lambda chains to filter and square integers.
-- **Flutter (Dart) Implementation**: Using `where` and `map` for the same operations.
+### Exercises Include:
+- **Map, Filter, Reduce**: Implementing and practicing these essential higher-order functions.
+- **Recursive Functions**: Understanding recursion through practical coding challenges.
+- **Immutable Data Structures**: Working with data types that do not change state or value after creation.
 
-## Tech Stack
-- **Android**: Kotlin, Jetpack Compose, Material Design 3.
-- **Flutter**: Dart, Flutter Widgets, Material Design 3.
-
-## How to Explore
-Each folder contains:
-1.  **Source Code**: Both `.kt` and `.dart` implementations.
-2.  **Documentation**: A dedicated `README.md` explaining the task, the solution, and the UI implementation.
-3.  **Visuals**: Previews or descriptions of the UI components used to showcase the results.
-
----
-*Developed with a focus on clean code, functional paradigms, and modern UI frameworks.*
+Each of these projects and exercises is intended to strengthen programming skills with a focus on functional programming principles. Feel free to contribute or suggest improvements!
