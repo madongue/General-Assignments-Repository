@@ -54,3 +54,6 @@ The UI for this project is designed as a **data summary dashboard**:
 ## How to View
 - **Kotlin**: Check out `ComplexDataProcessing.kt` and use the **Compose Preview**.
 - **Flutter**: Open `exercise3.dart` and run it in a Dart-enabled IDE or via the command line with `dart exercise3.dart`.
+
+---
+**Implemented by: Madongue Jeanne Lesline**

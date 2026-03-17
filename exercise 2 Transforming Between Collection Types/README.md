@@ -51,3 +51,6 @@ The UI for this exercise provides a clean, visual representation of the transfor
 ## How to View
 - **Kotlin**: Navigate to `TransformingCollections.kt` and open the **Compose Preview**.
 - **Flutter**: Open `exercise2.dart` and run it in a Dart-enabled IDE or via the command line with `dart exercise2.dart`.
+
+---
+**Implemented by: Madongue Jeanne Lesline**

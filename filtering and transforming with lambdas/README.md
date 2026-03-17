@@ -40,3 +40,6 @@ I built a full UI for this exercise using **Jetpack Compose** (Kotlin) and **Flu
 ## How to Run
 - **Kotlin**: Navigate to `FilteringAndTransforming.kt` and use the **Compose Preview**.
 - **Flutter**: Open `filtering_transforming.dart` and run it in a Dart-enabled IDE or via the command line with `dart filtering_transforming.dart`.
+
+---
+**Implemented by: Madongue Jeanne Lesline**

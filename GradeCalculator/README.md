@@ -123,10 +123,18 @@ Upon completion, the application will be capable of:
 
 ---
 
+## Project Milestones (Kotlin Implementation)
+
+- **Milestone 3: Object-Oriented Domain Model**
+  - Implemented by: **Madongue Jeanne Lesline**
+  - File: `Milestone3_MadongueJeanneLesline.kt`
+  - Features: Interface `Gradeable`, Abstract class `Participant`, Data class `Student`, Polymorphism demonstration.
+
+---
+
 ## Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Please [open an issue](https://github.com/NGUEND-ARTHUR/GradeCalculator/issues) to discuss improvements or report bugs.
+Contributions, issues, and feature requests are welcome!
 
 ---
 
@@ -145,3 +153,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 > **This project serves as a practical educational tool and an advanced portfolio piece, demonstrating strong Android and Kotlin development skills in real-world scenarios.**
+> **Maintained by: Madongue Jeanne Lesline**

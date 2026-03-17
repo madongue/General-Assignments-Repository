@@ -2,8 +2,8 @@
 
 > Digital Wellbeing & Productivity Application for Students  
 > **Course:** Android Application Development - ICT University  
-> **Lead Developer:** NGUEND ARTHUR JOHANN (ICTU20223180)  
-> **Quality Test Developer:** MADONGUE JEANNE LESLINE (ICTU20222931)  
+> **Lead Developer:** MADONGUE JEANNE LESLINE (ICTU20222931)  
+> **Quality Test Developer:** NGUEND ARTHUR JOHANN (ICTU20223180)  
 > **Milestone:** 1 - Core Data Model  
 > **Date:** February 27, 2026
 
@@ -123,7 +123,7 @@ This project is intended for educational purposes under the ICT University Andro
 
 ---
 
-## 8. Contact
+## 8. Contact (Group Members)
 
-- NGUEND ARTHUR JOHANN (ICTU20223180)
 - MADONGUE JEANNE LESLINE (ICTU20222931)
+- NGUEND ARTHUR JOHANN (ICTU20223180)

@@ -63,3 +63,6 @@ The UI for this exercise displays the input list and the results of different fi
 ## How to View
 - **Kotlin**: Open `HigherOrderFunction.kt` in Android Studio and check the `HigherOrderPreview`.
 - **Flutter**: Open `exercise1.dart` and run it in a Dart-enabled IDE or via the command line with `dart exercise1.dart`.
+
+---
+**Implemented by: Madongue Jeanne Lesline**
