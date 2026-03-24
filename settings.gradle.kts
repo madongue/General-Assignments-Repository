@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
@@ -14,4 +14,10 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "General-Assignments-Repository"
+
+// Include main assignments app
 include(":app")
+
+// Include FocusFlow module
+include(":FocusFlow:app")
+project(":FocusFlow:app").projectDir = file("FocusFlow/app")
