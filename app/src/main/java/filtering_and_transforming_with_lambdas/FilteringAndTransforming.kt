@@ -84,7 +84,7 @@ fun FilteringExerciseScreen() {
                 modifier = Modifier.align(Alignment.Start)
             )
 
-            HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+            Divider(modifier = Modifier.padding(vertical = 8.dp))
 
             LazyColumn(
                 modifier = Modifier.fillMaxWidth(),

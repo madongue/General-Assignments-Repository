@@ -146,7 +146,7 @@ fun ResultCard(
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
             
-            HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
+            Divider(modifier = Modifier.padding(vertical = 12.dp))
             
             Row(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
