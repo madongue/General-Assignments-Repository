@@ -1,0 +1,82 @@
+name: diplomax_university
+description: Diplomax CM — University Administration App (Mobile + Desktop)
+publish_to: none
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Navigation & State
+  go_router: ^13.0.0
+  flutter_riverpod: ^2.5.1
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  data_table_2: ^2.5.14        # Desktop-grade sortable data tables
+  syncfusion_flutter_charts: ^33.1.47  # Dashboard charts
+
+  # ── REAL CRYPTOGRAPHY (document signing) ─────────────────────────────────
+  # Universities sign diplomas with their RSA-2048 private key
+  pointycastle: ^3.9.1
+  cryptography: ^2.7.0
+  convert: ^3.1.1
+
+  # ── REAL SECURE STORAGE ─────────────────────────────────────────────────
+  flutter_secure_storage: ^9.2.2
+
+  # ── NETWORKING ─────────────────────────────────────────────────────────
+  dio: ^5.7.0
+  http: ^1.2.2
+
+  # ── LOCAL STORAGE ──────────────────────────────────────────────────────
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  sqflite: ^2.3.3+1
+
+  # ── FILE HANDLING ──────────────────────────────────────────────────────
+  file_picker: ^8.1.2
+  pdf: ^3.11.1                 # Generate PDF diplomas
+  printing: ^5.13.1            # Print diplomas
+  image_picker: ^1.1.2
+  google_mlkit_commons: ^0.8.1
+  google_mlkit_text_recognition: ^0.13.1
+  nfc_manager: ^3.5.1
+
+  # ── QR ─────────────────────────────────────────────────────────────────
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.0
+
+  # ── BIOMETRIC (for admin auth on mobile) ─────────────────────────────
+  local_auth: ^2.3.0
+
+  # ── UTILITIES ──────────────────────────────────────────────────────────
+  uuid: ^4.4.0
+  intl: 0.20.2
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  # Enable desktop targets
+  # Run: flutter config --enable-windows-desktop
+  #              --enable-macos-desktop
+  #              --enable-linux-desktop

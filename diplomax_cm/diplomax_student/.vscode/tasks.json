@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Student Flutter App",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"windows",
+				"--target",
+				"lib/main.dart"
+			],
+			"isBackground": true,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Install Student App",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"get",
+				"&&",
+				"flutter",
+				"install"
+			]
+		}
+	]
+}

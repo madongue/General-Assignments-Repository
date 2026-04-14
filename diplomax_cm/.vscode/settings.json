@@ -1,0 +1,22 @@
+{
+  "dart.analysisExcludedFolders": [
+    "${workspaceFolder}/diplomax_student/build",
+    "${workspaceFolder}/diplomax_student/.dart_tool",
+    "${workspaceFolder}/diplomax_university/build",
+    "${workspaceFolder}/diplomax_university/.dart_tool",
+    "${workspaceFolder}/diplomax_recruiter/build",
+    "${workspaceFolder}/diplomax_recruiter/.dart_tool"
+  ],
+  "python.analysis.exclude": [
+    "**/build/**",
+    "**/.dart_tool/**",
+    "backend/app/[{]*/**"
+  ],
+  "files.exclude": {
+    "**/build": true,
+    "**/.dart_tool": true,
+    "**/[{]*": true
+  },
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.import.gradle.enabled": false
+}
